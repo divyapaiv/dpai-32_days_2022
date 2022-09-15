@@ -1,4 +1,4 @@
-/*Hello cerner_2^5_2022 formula for successfull iteration is always give and take help whenever required 
+/*Hello cerner_2tothe5th_2022 formula for successfull iteration is always give and take help whenever required 
 Live code can be ran from here https://www.jdoodle.com/ia/vhq 
 */ 
 fn main() {
