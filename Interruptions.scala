@@ -5,7 +5,8 @@ The minutes_needed_to_fall_asleep = This depicts time we spend on recall the poi
 Random interruptions are unplanned meetings/planned meeting which can actually increase the time that we spend regaining the lost track. 
 Minimize as many meetings as possible unless its very necessary to increase engineering producivity. 
 Cerner_2^5_2022
-cerner_2tothe5th_2022  
+cerner_2tothe5th_2022 
+
 */
 object Interruptions {
    def main(args: Array[String]) {
