@@ -1,0 +1,32 @@
+<!-- Displays a pie char with the Distribution of time to keep our mind happy which will impact of engineering efficacy -->
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+<h1>Balancing Time to imporve engineering Efficacy</h1>
+<div id="piechart" style="width: 900px; height: 500px;"></div>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"/>
+<script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+	  function drawChart() {
+        var dataTable = new google.visualization.DataTable();
+        dataTable.addColumn('string', 'label');
+        dataTable.addColumn('number', 'Distribution');
+        // A column for custom tooltip content
+        dataTable.addColumn({type: 'string', role: 'tooltip'});
+        dataTable.addRows([
+          ['WORK',33,'Every Day spend 8 hours for work '],
+		  ['Sleep ', 33, 'Every day ensure to take nap for 8 hrs.'],
+          ['Me Time ', 33, 'Keep remaining 8 for hobbies,workouts and other activities.']
+        ]);
+        var options = {
+          tooltip: {isHtml: true},is3D: true,pieSliceText: 'label'
+        };
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+        chart.draw(dataTable, options);
+      }
+</script>
+ </body>
+ </html>
+<!--  cerner_2^5_2022 cerner_2tothe5th_2022 -->
+
