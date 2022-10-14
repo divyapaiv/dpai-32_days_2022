@@ -23,3 +23,4 @@
    sapi.Speak "Following thoughts increases Engineering efficacy"
    sapi.Speak IncreasesEfficacy(i)
  Next
+
